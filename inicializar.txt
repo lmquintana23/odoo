@@ -1,0 +1,9 @@
+* Ingresar a postgres
+sudo -u postgres psql
+
+* Crear la Base de datos
+CREATE DATABASE odoo OWNER odoo
+
+* inicializar
+python odoo-bin -c odoo.conf -d odoo -i base
+

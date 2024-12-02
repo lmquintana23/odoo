@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="view_estate_property_tag_form" model="ir.ui.view">
+        <field name="name">estate.property.tag.form</field>
+        <field name="model">estate.property.tag</field>
+        <field name="arch" type="xml">
+           <form string="Estate property type Form" edit="False">
+                <sheet>
+                    <group>
+                        <h1><field name="name" colspan="4"/></h1>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
